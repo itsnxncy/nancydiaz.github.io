@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+.image-section {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info-section {
+    flex: 3;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-section h1, .info-section h3 {
+    margin: 0;
+}
+
+input[type="text"], input[type="password"], button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: auto;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
