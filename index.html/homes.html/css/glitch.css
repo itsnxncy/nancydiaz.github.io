@@ -56,6 +56,40 @@ body {
     margin-bottom: 40px;
 }
 
+.my-work {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding around the section */
+  }
+  
+  .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* This will space out your images evenly */
+    margin-bottom: 20px; /* Space below each row of images */
+  }
+  
+  .thumbnail {
+    flex-basis: calc(50% - 40px); /* Adjust the width of the images - 40px accounts for margin */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow around the thumbnails */
+  }
+  
+  .thumbnail img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-bottom: 2px solid #ccc; /* Optional: Adds a line under the image */
+  }
+  
+  .image-description {
+    margin-top: 10px; /* Space between image and description */
+  }
+  
+  hr {
+    border: 0;
+    height: 1px; /* You can adjust the height as needed */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); /* Creates a fading line */
+  }
+  
 .thumbnails {
     display: flex;
     justify-content: center;
